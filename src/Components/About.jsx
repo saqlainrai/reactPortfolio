@@ -34,7 +34,7 @@ const skillsList = [
   "C++/Python Programming",
   "C# Windows Form",
   "Full Stack Web Development",
-  "Microsoft Office 365", 
+  "Microsoft Office 365",
   "Adobe Creative Cloud",
   "Microsoft Power BI",
   "Graphic designing"

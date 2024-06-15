@@ -31,35 +31,35 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "City Book Centre",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This project is done to manage a Book Store. This project will aid the shop owners to manage their book stores. ",
+    url: "https://github.com/saqlainrai/City-Book-Centre.git",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Astro Assault",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Astro Assault is a classic space shooting game that will take you on a journey through the cosmos. In this console-based, text-based adventure, you play as a daring space pilot tasked with defending the galaxy from an alien invasion.",
+    url: "https://github.com/saqlainrai/AstroAssault",
   },
   {
-    title: "My Resume Site",
+    title: "Pharma Distribution System",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "This project aim to streamline the flow of medicine distribution system, and aid the medical complexes to receive the medicine on time.",
+    url: "https://gitlab.com/dsa-lab/finalproject.git",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Store Management System",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "This project was designed to manage the records of a general stores. This was a DB project and including the designing the database and querying the useful data from database.",
+    url: "https://gitlab.com/saqlainrai/dbfinalpid-3.git",
   },
 ];
 
-const Portfolio = () => {
+const Projects = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ textAlign: "center" }}>Projects</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
@@ -83,4 +83,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Projects;
